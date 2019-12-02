@@ -1,0 +1,7 @@
+#!/bin/bash
+
+INIT_DATE=$1
+END_DATE=$2
+
+python main.py --start_date=$INIT_DATE --end_date=$END_DATE --first_period_start="08:00" --first_period_end="12:00" --second_period_start="13:00" --second_period_end="17:00"
+
