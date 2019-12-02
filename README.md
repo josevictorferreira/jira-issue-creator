@@ -1,10 +1,8 @@
 
 ## Jira Issue Creator
-
     A Jira tool for helping creating a bunch of issues on Jira, each one corresponding a timesheet.
 
 ### Installation and Setup
-
     * Install poetry `pip install poetry --user`.
     * Enter the poetry virtual environment `poetry shell`.
     * Create a `.env` file in the root path of the project `touch .env`.
