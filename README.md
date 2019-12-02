@@ -6,6 +6,7 @@
 ### Installation and Setup
 
     * Install poetry `pip install poetry --user`.
+    * Enter the poetry virtual environment `poetry shell`.
     * Create a `.env` file in the root path of the project `touch .env`.
         * Fill the .env file with corresponding variables needed:
             ```
