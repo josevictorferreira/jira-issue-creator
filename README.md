@@ -21,6 +21,6 @@
       ```
   * Run the command line tool:
     * Example: Create a all issues needed for 01/11/2019 to 30/11/2019:
-     `python main.py --start_date=01/11/2019 --end_date=30/11/2019 --first_period_start=08:00 --first_period_end=12:00 --second_period_start=13:00 --second_period_end=17:00`
+     `python main.py --start_date=01/11/2019 --end_date=30/11/2019 --second_period_start=13:00 --second_period_end=17:00`
     * Example 2: Create all issues needed for 01/11/2019 to 30/11/2019 but with only one period:
-    `python main.py --start_date=01/11/2019 --end_date=30/11/2019 --first_period_start=08:00 --first_period_end=12:00`
+    `python main.py --start_date=01/11/2019 --end_date=30/11/2019`
