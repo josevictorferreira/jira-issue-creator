@@ -52,7 +52,6 @@ class JiraIssueCreator:
         debug=False,
     ):
         print("Criando issues das datas " + init_date + " até " + end_date)
-        return False
         dates = JiraUtils.get_date_range_without_holidays(init_date, end_date)
         issue_dates = JiraUtils.get_all_issue_dates(
             dates,
