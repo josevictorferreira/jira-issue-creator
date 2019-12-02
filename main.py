@@ -15,8 +15,8 @@ def jira_creator(
     end_date,
     first_period_start="08:00",
     first_period_end="12:00",
-    second_period_start="13:00",
-    second_period_end="17:00",
+    second_period_start=None,
+    second_period_end=None,
 ):
     jira = JiraIssueCreator(JIRA_LOGIN, JIRA_PASSWORD, JIRA_URL)
     jira.create_issues_by_date_range(
